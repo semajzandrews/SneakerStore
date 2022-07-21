@@ -19,6 +19,8 @@ struct BaseView: View {
         
         TabView(selection: $baseData.currentTab){
             Text("Home")
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .background(Color.black.opacity(0.4))
                 .tag(Tab.Home)
             Text("Heart")
                 .tag(Tab.Heart)
@@ -30,8 +32,13 @@ struct BaseView: View {
         .overlay(
             // MARK: CUSTOM TAB BAR
             HStack(spacing: 0){
-                
-            }
+                TabButton(Tab: .Home)
+                TabButton(Tab: .Heart)
+                TabButton(Tab: .Clipboard)
+                TabButton(Tab: .Person)
+            },
+            
+            alignment: .bottom
         )
     }
     
@@ -48,7 +55,8 @@ struct BaseView: View {
                 .renderingMode(.template)
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 25, height: 25)
-//                .foregroundColor(<#T##color: Color?##Color?#>)
+                .foregroundColor(baseData.currentTab == Tab ? Color("DarkBlue"): Color.gray.opacity((0.5)))
+                .frame(maxWidth: .infinity)
         }
     }
     
