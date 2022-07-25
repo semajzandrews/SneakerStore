@@ -50,8 +50,11 @@ struct BaseView: View {
                         .padding(18)
                         .background(Color("DarkBlue"))
                         .clipShape(Circle())
+                    
+                        // MARK: SHADOW UI IMPLEMENTATION
+                    
                 }
-                .offset(y: -24)
+                .offset(y: -32)
                 
                 TabButton(Tab: .Clipboard)
                 TabButton(Tab: .Person)
