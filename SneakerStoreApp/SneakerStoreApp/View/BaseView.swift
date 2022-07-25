@@ -52,6 +52,9 @@ struct BaseView: View {
                         .clipShape(Circle())
                     
                         // MARK: SHADOW UI IMPLEMENTATION
+                        .shadow(color: Color.black.opacity(0.04), radius: 5, x: 5, y: 5)
+                        .shadow(color: Color.black.opacity(0.04), radius: 5, x: -5, y: -5)
+            
                     
                 }
                 .offset(y: -32)
@@ -59,8 +62,12 @@ struct BaseView: View {
                 TabButton(Tab: .Clipboard)
                 TabButton(Tab: .Person)
             }
-                .background(Color.white)
-            
+                .background(
+                    Color.white
+                        .clipShape(CustomCurvedShape())
+                .shadow(color: Color.black.opacity(0.04), radius: 5, x: -5, y: -5)
+                .ignoresSafeArea()
+            )
             ,alignment: .bottom
         )
     }

@@ -16,6 +16,7 @@
 		73DCF512288ACA31001236C3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 73DCF511288ACA31001236C3 /* GoogleService-Info.plist */; };
 		73DCF515288ACAFF001236C3 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 73DCF514288ACAFF001236C3 /* FirebaseAuth */; };
 		73DCF517288ACAFF001236C3 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 73DCF516288ACAFF001236C3 /* FirebaseFirestore */; };
+		73DCF51F288F17A1001236C3 /* CustomCurvedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DCF51E288F17A1001236C3 /* CustomCurvedShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		73DCF50D2889DF05001236C3 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		73DCF50F2889DF2F001236C3 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		73DCF511288ACA31001236C3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		73DCF51E288F17A1001236C3 /* CustomCurvedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurvedShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				73DCF50D2889DF05001236C3 /* BaseView.swift */,
+				73DCF51E288F17A1001236C3 /* CustomCurvedShape.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				73DCF50E2889DF05001236C3 /* BaseView.swift in Sources */,
 				73DCF5102889DF2F001236C3 /* BaseViewModel.swift in Sources */,
 				73DCF4FF2889DDF4001236C3 /* ContentView.swift in Sources */,
+				73DCF51F288F17A1001236C3 /* CustomCurvedShape.swift in Sources */,
 				73DCF4FD2889DDF4001236C3 /* SneakerStoreAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
