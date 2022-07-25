@@ -18,7 +18,8 @@ struct BaseView: View {
     var body: some View {
         
         TabView(selection: $baseData.currentTab){
-            Text("Home")
+            HomeView()
+                .environmentObject(baseData)
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .background(Color.black.opacity(0.0))
                 .tag(Tab.Home)
@@ -34,6 +35,7 @@ struct BaseView: View {
             HStack(spacing: 0){
                 TabButton(Tab: .Home)
                 TabButton(Tab: .Heart)
+                    .offset(x: -10)
                 
                 // MARK: CENTERED CIRCULARD CART BUTTON
                 
@@ -57,9 +59,10 @@ struct BaseView: View {
             
                     
                 }
-                .offset(y: -32)
+                .offset(y: -30)
                 
                 TabButton(Tab: .Clipboard)
+                    .offset(x: 10)
                 TabButton(Tab: .Person)
             }
                 .background(

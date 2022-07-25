@@ -16,8 +16,6 @@ struct CustomCurvedShape: Shape {
             path.addLine(to: CGPoint(x: rect.width, y: rect.height))
             path.addLine(to: CGPoint(x: 0, y: rect.height))
 
-            
-            
             let mid = rect.width / 2
             
             path.move(to: CGPoint(x: mid - 70, y: 0))
@@ -34,7 +32,6 @@ struct CustomCurvedShape: Shape {
             
             path.addCurve(to: to2, control1: control3, control2: control4)
             
-        
         }
     }
 }
