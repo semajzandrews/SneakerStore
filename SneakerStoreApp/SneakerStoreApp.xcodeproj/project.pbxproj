@@ -21,6 +21,7 @@
 		73DCF523289067F5001236C3 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DCF522289067F5001236C3 /* CartView.swift */; };
 		73DCF52528906B05001236C3 /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DCF52428906B05001236C3 /* CartViewModel.swift */; };
 		73DCF52728906B40001236C3 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DCF52628906B40001236C3 /* Item.swift */; };
+		73DCF52928907642001236C3 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DCF52828907642001236C3 /* ItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		73DCF522289067F5001236C3 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		73DCF52428906B05001236C3 /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
 		73DCF52628906B40001236C3 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		73DCF52828907642001236C3 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				73DCF51E288F17A1001236C3 /* CustomCurvedShape.swift */,
 				73DCF520288F1E30001236C3 /* HomeView.swift */,
 				73DCF522289067F5001236C3 /* CartView.swift */,
+				73DCF52828907642001236C3 /* ItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				73DCF50E2889DF05001236C3 /* BaseView.swift in Sources */,
 				73DCF52728906B40001236C3 /* Item.swift in Sources */,
 				73DCF523289067F5001236C3 /* CartView.swift in Sources */,
+				73DCF52928907642001236C3 /* ItemView.swift in Sources */,
 				73DCF5102889DF2F001236C3 /* BaseViewModel.swift in Sources */,
 				73DCF4FF2889DDF4001236C3 /* ContentView.swift in Sources */,
 				73DCF52528906B05001236C3 /* CartViewModel.swift in Sources */,

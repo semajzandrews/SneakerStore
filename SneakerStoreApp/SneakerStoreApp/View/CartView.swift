@@ -32,15 +32,21 @@ struct CartView: View {
                     
                         // MARK: ITEM VIEW
                         
-                        
+                        ItemView(item: $cartData.items[getIndex(item: item)])
                     }
                 }
             }
         }
         .background(
-            Color.gray.opacity(0.20)
+            Color.gray.opacity(0.20).ignoresSafeArea()
         )
-        
+    }
+    
+    func getIndex(item: Item) -> Int {
+    
+        return cartData.items.firstIndex { (item1) -> Bool in
+            return item.id == item1.id
+        } ?? 0
     }
 }
 
