@@ -18,6 +18,9 @@
 		73DCF517288ACAFF001236C3 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 73DCF516288ACAFF001236C3 /* FirebaseFirestore */; };
 		73DCF51F288F17A1001236C3 /* CustomCurvedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DCF51E288F17A1001236C3 /* CustomCurvedShape.swift */; };
 		73DCF521288F1E30001236C3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DCF520288F1E30001236C3 /* HomeView.swift */; };
+		73DCF523289067F5001236C3 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DCF522289067F5001236C3 /* CartView.swift */; };
+		73DCF52528906B05001236C3 /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DCF52428906B05001236C3 /* CartViewModel.swift */; };
+		73DCF52728906B40001236C3 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DCF52628906B40001236C3 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		73DCF511288ACA31001236C3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		73DCF51E288F17A1001236C3 /* CustomCurvedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurvedShape.swift; sourceTree = "<group>"; };
 		73DCF520288F1E30001236C3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		73DCF522289067F5001236C3 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		73DCF52428906B05001236C3 /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
+		73DCF52628906B40001236C3 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				73DCF50F2889DF2F001236C3 /* BaseViewModel.swift */,
+				73DCF52428906B05001236C3 /* CartViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -99,6 +106,7 @@
 				73DCF50D2889DF05001236C3 /* BaseView.swift */,
 				73DCF51E288F17A1001236C3 /* CustomCurvedShape.swift */,
 				73DCF520288F1E30001236C3 /* HomeView.swift */,
+				73DCF522289067F5001236C3 /* CartView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -106,6 +114,7 @@
 		73DCF50C2889DE32001236C3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				73DCF52628906B40001236C3 /* Item.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -189,8 +198,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				73DCF50E2889DF05001236C3 /* BaseView.swift in Sources */,
+				73DCF52728906B40001236C3 /* Item.swift in Sources */,
+				73DCF523289067F5001236C3 /* CartView.swift in Sources */,
 				73DCF5102889DF2F001236C3 /* BaseViewModel.swift in Sources */,
 				73DCF4FF2889DDF4001236C3 /* ContentView.swift in Sources */,
+				73DCF52528906B05001236C3 /* CartViewModel.swift in Sources */,
 				73DCF521288F1E30001236C3 /* HomeView.swift in Sources */,
 				73DCF51F288F17A1001236C3 /* CustomCurvedShape.swift in Sources */,
 				73DCF4FD2889DDF4001236C3 /* SneakerStoreAppApp.swift in Sources */,
